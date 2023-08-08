@@ -6,7 +6,7 @@ email: guantianlin01@163.com
 description: "这里是 @LG-tianyuan林观田 的个人博客"
 keyword: "林观田, LGT, LG-tianyuan, blog, 个人网站"
 url: "https://lg-tianyuan.github.io/blog/" # your host, for absolute URL
-baseurl: "https://lg-tianyuan.github.io/blog/" # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
