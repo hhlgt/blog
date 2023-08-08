@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: guantianlin01@163.com
 description: "这里是 @LG-tianyuan林观田 的个人博客"
 keyword: "林观田, LGT, LG-tianyuan, blog, 个人网站"
-url: "https://lg-tianyuan.github.io/blog/" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://lg-tianyuan.github.io" # your host, for absolute URL
+baseurl: "/blog" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -69,7 +69,7 @@ gitalk:
   enable: true 
   clientID: bbe1f6f4ed0f98ecf964 
   clientSecret: 03212f2d059a1b65632565f93f90787f775e2e0c 
-  repo: lg-tianyuan.github.io 
+  repo: blog 
   owner: LG-tianyuan 
   admin: LG-tianyuan
   distractionFreeMode: true 
