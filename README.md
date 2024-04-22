@@ -1,4 +1,4 @@
-This is the repository for [MyBlog.](https://lg-tianyuan.github.io/blog/)
+This is the repository for [MyBlog.](https://hhlgt.github.io/blog/)
 --------------------------------
 
 ### Thanks

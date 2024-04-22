@@ -3,12 +3,12 @@
     "title": "Lgt Blog",
     "author": "Lgt <320550662@qq.com>",
     "version": "1.0.0",
-    "homepage": "http://lg-tianyuan.github.io",
+    "homepage": "https://hhlgt.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/LG-tianyuan/lg-tianyuan.github.io"
+        "url": "https://github.com/hhlgt/hhlgt.github.io"
     },
-    "bugs": "https://github.com/LG-tianyuan/lg-tianyuan.github.io/issues",
+    "bugs": "https://github.com/hhlgt/hhlgt.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.3.0",
         "grunt-banner": "~0.2.3",

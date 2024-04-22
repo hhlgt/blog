@@ -3,9 +3,9 @@ title: LGT Blog
 SEOTitle: LGT Blog
 header-img: img/home-bg.jpg
 email: guantianlin01@163.com
-description: "这里是 @LG-tianyuan林观田 的个人博客"
-keyword: "林观田, LGT, LG-tianyuan, blog, 个人网站"
-url: "https://lg-tianyuan.github.io" # your host, for absolute URL
+description: "这里是 @hhlgt林观田 的个人博客"
+keyword: "林观田, LGT, hhlgt, blog, 个人网站"
+url: "https://hhlgt.github.io" # your host, for absolute URL
 baseurl: "/blog" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -15,7 +15,7 @@ future: true
 RSS: false
 # weibo_username: 
 # zhihu_username: 
-github_username: LG-tianyuan
+github_username: hhlgt
 # twitter_username: 
 #facebook_username:  
 #linkedin_username:  firstname-lastname-idxxxx
@@ -70,8 +70,8 @@ gitalk:
   clientID: bbe1f6f4ed0f98ecf964 
   clientSecret: 03212f2d059a1b65632565f93f90787f775e2e0c 
   repo: blog 
-  owner: LG-tianyuan 
-  admin: LG-tianyuan
+  owner: hhlgt 
+  admin: hhlgt
   distractionFreeMode: true 
 
 # Analytics settings
@@ -85,7 +85,7 @@ gitalk:
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "思索 沉淀"
-sidebar-avatar: https://github.com/LG-tianyuan.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/hhlgt.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
