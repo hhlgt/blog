@@ -4,7 +4,7 @@ title:      "论文阅读|MapReduce"
 subtitle:   "About MapReduce"
 date:       2024-04-03 20:00:00
 author:     "LGT"
-header-img: img/post/paper-read/mapreduce/image-20240403145224077.png
+header-style: text
 catalog: true
 tags:
     - MapReduce
