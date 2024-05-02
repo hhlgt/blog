@@ -51,7 +51,7 @@ tags:
 
 ### 3. Memcached访问模式
 
-<img src="img/post/memcached/image-20221019152940108.png" alt="image-20221019152940108" style="zoom:80%;" />
+<img src="/blog/img/post/memcached/image-20221019152940108.png" alt="image-20221019152940108" style="zoom:80%;" />
 
 **MemCache虽然被称为"分布式缓存"，但是MemCache本身完全不具备分布式的功能**，MemCache集群的节点之间不会相互通信，如何"分布式"，完全依赖于客户端程序的实现。
 
@@ -88,7 +88,7 @@ Hash函数：`hash(key)%num_of_servers`
 
 Example：
 
-<img src="img/post/memcached/image-20221022092708467.png" alt="image-20221022092708467" style="zoom:80%;" />
+<img src="/blog/img/post/memcached/image-20221022092708467.png" alt="image-20221022092708467" style="zoom:80%;" />
 
 如图，添加一个节点N4，只会影响到一个key值的Hash结果，即原本映射到N1的值现在映射到N4。添加节点N4，只有处于N3到N4之间的Hash值才会受到影响，比余数Hash增加节点时代价要小得多。这也说明，**集群中缓存服务器节点越多，增加节点带来的影响越小**。
 
@@ -96,7 +96,7 @@ Example：
 
 Memcached利用Slab Allocation机制来分配和管理内存。
 
-![image-20221022104329608](img/post/memcached/image-20221022104329608.png)
+![image-20221022104329608](/blog/img/post/memcached/image-20221022104329608.png)
 
 slab是memcached分配的基本单位，每个slab对应多张Page（默认大小是1M），每张Page会被划分为多个chunk（每个chunk中都保存了一个item结构体、一对key和value）。
 
